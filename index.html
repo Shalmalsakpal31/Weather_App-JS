@@ -13,13 +13,13 @@
     <div class="container">
         <div class="weather__header">
             <form action="" class="weather__search">
-                <input type="text" placeholder="Search for a City.." class="weather__searchform">
+                <input type="text" placeholder="Search for a City.." class="weather__searchform" name="search">
                 <i class="fa-solid fa-magnifying-glass"></i>
 
             </form>
             <div class="weather__units">
-                <span class="weather__units_celsius">&#176C</span>
-                <span class="weather__units_farenheit">&#176F</span>
+                <span class="weather_units_celsius">&#176C</span>
+                <span class="weather_units_farenheit">&#176F</span>
             </div>
         </div>
         <div class="weather__body">
@@ -65,6 +65,13 @@
                     <p class="weather__Wind">18&#176</p>
                 </div>
             </div>
+            <div class="weather__card">
+                <i class="fa-sharp fa-solid fa-sunset"></i>
+                <div>
+                    <p>Sunset</p>
+                    <p class="weather__sunset">18&#176</p>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -76,7 +83,7 @@
 
 
 
-    <script src="style.js"></script>
+    <script src="style.js" type="module"></script>
     <script src="https://kit.fontawesome.com/77bf126aae.js" crossorigin="anonymous"></script>
 </body>
 
